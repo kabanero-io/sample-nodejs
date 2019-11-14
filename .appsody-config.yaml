@@ -1,0 +1,2 @@
+project-name: sample-nodejs
+stack: kabanero/nodejs:0.2
