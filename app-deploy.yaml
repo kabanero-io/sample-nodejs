@@ -6,15 +6,15 @@ metadata:
     authoritative-source-url: registry.access.redhat.com
     build-date: 2019-10-29T20:35:20.404230
     commit.image.appsody.dev/author: Daniel Cleyrat <dacleyra@us.ibm.com>
-    commit.image.appsody.dev/committer: GitHub <noreply@github.com>
-    commit.image.appsody.dev/date: Thu Nov 14 10:36:22 2019 -0500
-    commit.image.appsody.dev/message: Initial commit
+    commit.image.appsody.dev/committer: Daniel Cleyrat <dacleyra@us.ibm.com>
+    commit.image.appsody.dev/date: Thu Nov 14 10:41:58 2019 -0500
+    commit.image.appsody.dev/message: license
     description: This image contains the Kabanero development stack for the Nodejs
       collection
     distribution-scope: public
     help: For more information visit https://github.com/sclorg/s2i-nodejs-container
-    image.opencontainers.org/created: "2019-11-14T10:38:45-05:00"
-    image.opencontainers.org/revision: 21c49481dab77e96b8523f443c130dc234f7ab51-modified
+    image.opencontainers.org/created: "2019-12-03T16:35:39-05:00"
+    image.opencontainers.org/revision: 06c632916dbfce3a122b7c06a6686ae95496f0ad-modified
     k8s.io/description: Node.js 10 available as container is a base platform for building
       and running various Node.js 10 applications and frameworks. Node.js is a platform
       built on Chrome's JavaScript runtime for easily building fast, scalable network
@@ -36,19 +36,19 @@ metadata:
     s2i.io/scripts-url: image:///usr/libexec/s2i
     s2i.openshift.io/scripts-url: image:///usr/libexec/s2i
     stack.appsody.dev/configured: kabanero/nodejs:0.2
-    stack.appsody.dev/created: 2019-11-08T17:24:02+0000
-    stack.appsody.dev/revision: 5eeb48d7026977e2bfcc71ec80d3783db81bcf4c
-    stack.appsody.dev/tag: kabanero/nodejs:0.2.5
+    stack.appsody.dev/created: 2019-12-02T20:44:58+0000
+    stack.appsody.dev/revision: a91ca0fd6288542b08268b4299b55ae81718fbc4
+    stack.appsody.dev/tag: kabanero/nodejs:0.2.6
     summary: Image for Kabanero Nodejs development
     url: https://access.redhat.com/containers/#/registry.access.redhat.com/ubi8/nodejs-10/images/1-54
     usage: s2i build <SOURCE-REPOSITORY> ubi8/nodejs-10:latest <APP-NAME>
     vcs-ref: 6ee7553ab2fb0dc20817416392fa6025cd1003c7
     vcs-type: git
     vendor: Kabanero
-    version: 0.2.5
+    version: 0.2.6
   labels:
     image.opencontainers.org/title: sample-nodejs
-    stack.appsody.dev/version: 0.2.5
+    stack.appsody.dev/version: 0.2.6
   name: sample-nodejs
 spec:
   applicationImage: dev.local/sample-nodejs

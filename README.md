@@ -1,7 +1,1 @@
-# sample-nodejs
-
-0.3.0-rc.3
-
-appsody init stack
-
-For sample & testing
+kabanero-io/collections nodejs stack release 0.3.2
