@@ -4,51 +4,51 @@ metadata:
   annotations:
     architecture: x86_64
     authoritative-source-url: registry.access.redhat.com
-    build-date: 2019-10-29T20:35:20.404230
-    commit.image.appsody.dev/author: Daniel Cleyrat <dacleyra@us.ibm.com>
-    commit.image.appsody.dev/committer: Daniel Cleyrat <dacleyra@us.ibm.com>
-    commit.image.appsody.dev/date: Tue Dec 3 16:35:39 2019 -0500
-    commit.image.appsody.dev/message: $RELEASE
+    build-date: 2019-12-13T06:41:57.035330
     description: This image contains the Kabanero development stack for the Nodejs
       collection
     distribution-scope: public
     help: For more information visit https://github.com/sclorg/s2i-nodejs-container
-    image.opencontainers.org/created: "2019-12-03T16:36:14-05:00"
-    image.opencontainers.org/revision: dd45108b99619bd617b7fb6fcfde2a6cc2574f0e-modified
-    k8s.io/description: Node.js 10 available as container is a base platform for building
-      and running various Node.js 10 applications and frameworks. Node.js is a platform
+    image.opencontainers.org/created: "2020-01-13T11:33:30-05:00"
+    k8s.io/description: Node.js 12 available as container is a base platform for building
+      and running various Node.js 12 applications and frameworks. Node.js is a platform
       built on Chrome's JavaScript runtime for easily building fast, scalable network
       applications. Node.js uses an event-driven, non-blocking I/O model that makes
       it lightweight and efficient, perfect for data-intensive real-time applications
       that run across distributed devices.
-    k8s.io/display-name: Node.js 10
+    k8s.io/display-name: Node.js 12
     maintainer: SoftwareCollections.org <sclorg@redhat.com>
     name: kabanero/nodejs
     openshift.io/expose-services: 8080:http
-    openshift.io/tags: builder,nodejs,nodejs10
-    redhat.com/build-host: cpt-1006.osbs.prod.upshift.rdu2.redhat.com
-    redhat.com/component: nodejs-10-container
+    openshift.io/tags: builder,nodejs,nodejs12
+    redhat.com/build-host: cpt-1003.osbs.prod.upshift.rdu2.redhat.com
+    redhat.com/component: nodejs-12-container
     redhat.com/deployments-dir: /opt/app-root/src
     redhat.com/dev-mode: DEV_MODE:false
     redhat.com/dev-mode.port: DEBUG_PORT:5858
     redhat.com/license_terms: https://www.redhat.com/en/about/red-hat-end-user-license-agreements#UBI
-    release: "54"
+    release: "21"
     s2i.io/scripts-url: image:///usr/libexec/s2i
     s2i.openshift.io/scripts-url: image:///usr/libexec/s2i
-    stack.appsody.dev/configured: kabanero/nodejs:0.2
-    stack.appsody.dev/created: 2019-12-02T20:44:58+0000
-    stack.appsody.dev/revision: a91ca0fd6288542b08268b4299b55ae81718fbc4
-    stack.appsody.dev/tag: kabanero/nodejs:0.2.6
+    stack.appsody.dev/authors: Sam Roberts <vieuxtech@gmail.com>
+    stack.appsody.dev/configured: docker.io/kabanerobeta/nodejs:0.3
+    stack.appsody.dev/created: "2020-01-10T23:04:18Z"
+    stack.appsody.dev/description: Runtime for Node.js applications
+    stack.appsody.dev/licenses: Apache-2.0
+    stack.appsody.dev/tag: docker.io/kabanerobeta/nodejs:0.3.1
+    stack.appsody.dev/title: Node.js
     summary: Image for Kabanero Nodejs development
-    url: https://access.redhat.com/containers/#/registry.access.redhat.com/ubi8/nodejs-10/images/1-54
-    usage: s2i build <SOURCE-REPOSITORY> ubi8/nodejs-10:latest <APP-NAME>
-    vcs-ref: 6ee7553ab2fb0dc20817416392fa6025cd1003c7
+    url: https://access.redhat.com/containers/#/registry.access.redhat.com/ubi8/nodejs-12/images/1-21
+    usage: s2i build <SOURCE-REPOSITORY> ubi8/nodejs-12:latest <APP-NAME>
+    vcs-ref: 06db87251616c5f3b1ebedb4d1dae928fa0144c0
     vcs-type: git
     vendor: Kabanero
-    version: 0.2.6
+    version: 0.3.1
+  creationTimestamp: null
   labels:
     image.opencontainers.org/title: sample-nodejs
-    stack.appsody.dev/version: 0.2.6
+    stack.appsody.dev/id: nodejs
+    stack.appsody.dev/version: 0.3.1
   name: sample-nodejs
 spec:
   applicationImage: dev.local/sample-nodejs
@@ -59,3 +59,4 @@ spec:
     type: NodePort
   stack: nodejs
   version: 1.0.0
+status: {}

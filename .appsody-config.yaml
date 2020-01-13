@@ -1,2 +1,2 @@
 project-name: sample-nodejs
-stack: kabanero/nodejs:0.2
+stack: docker.io/kabanerobeta/nodejs:0.3
