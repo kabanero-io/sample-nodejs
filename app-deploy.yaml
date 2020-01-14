@@ -9,7 +9,7 @@ metadata:
       collection
     distribution-scope: public
     help: For more information visit https://github.com/sclorg/s2i-nodejs-container
-    image.opencontainers.org/created: "2020-01-13T11:33:30-05:00"
+    image.opencontainers.org/created: "2020-01-14T15:50:12-05:00"
     k8s.io/description: Node.js 12 available as container is a base platform for building
       and running various Node.js 12 applications and frameworks. Node.js is a platform
       built on Chrome's JavaScript runtime for easily building fast, scalable network
@@ -32,7 +32,7 @@ metadata:
     s2i.openshift.io/scripts-url: image:///usr/libexec/s2i
     stack.appsody.dev/authors: Sam Roberts <vieuxtech@gmail.com>
     stack.appsody.dev/configured: docker.io/kabanerobeta/nodejs:0.3
-    stack.appsody.dev/created: "2020-01-10T23:04:18Z"
+    stack.appsody.dev/created: "2020-01-14T13:00:52Z"
     stack.appsody.dev/description: Runtime for Node.js applications
     stack.appsody.dev/licenses: Apache-2.0
     stack.appsody.dev/tag: docker.io/kabanerobeta/nodejs:0.3.1
