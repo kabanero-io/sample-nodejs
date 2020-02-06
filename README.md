@@ -1,1 +1,1 @@
-kabanero-io/collections nodejs stack release 0.5.0
+appsody/stacks nodejs stack release java-spring-boot2-v0.3.23
