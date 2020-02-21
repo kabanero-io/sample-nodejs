@@ -14,7 +14,7 @@ metadata:
       collection
     distribution-scope: public
     help: For more information visit https://github.com/sclorg/s2i-nodejs-container
-    image.opencontainers.org/created: "2020-02-21T14:08:25-05:00"
+    image.opencontainers.org/created: "2020-02-21T14:51:09-05:00"
     k8s.io/description: Node.js 12 available as container is a base platform for building
       and running various Node.js 12 applications and frameworks. Node.js is a platform
       built on Chrome's JavaScript runtime for easily building fast, scalable network
