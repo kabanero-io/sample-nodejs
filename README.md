@@ -1,1 +1,1 @@
-kabanero-io/collections nodejs stack release 0.6.2
+kabanero-io/kabanero-stack-hub nodejs release 0.7.0

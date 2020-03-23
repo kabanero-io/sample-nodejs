@@ -8,13 +8,13 @@ metadata:
     commit.stack.appsody.dev/author: Steve Groeger <groeges@uk.ibm.com>
     commit.stack.appsody.dev/committer: GitHub <noreply@github.com>
     commit.stack.appsody.dev/contextDir: /incubator/nodejs
-    commit.stack.appsody.dev/date: Tue Mar 10 13:54:06 2020 +0000
-    commit.stack.appsody.dev/message: 'Merge pull request #309 from groeges/release-0.6'
+    commit.stack.appsody.dev/date: Tue Mar 10 21:35:36 2020 +0000
+    commit.stack.appsody.dev/message: 'Merge pull request #313 from groeges/release-0.6'
     description: This image contains the Kabanero development stack for the Nodejs
       collection
     distribution-scope: public
     help: For more information visit https://github.com/sclorg/s2i-nodejs-container
-    image.opencontainers.org/created: "2020-03-10T15:29:33-04:00"
+    image.opencontainers.org/created: "2020-03-23T11:10:25-04:00"
     k8s.io/description: Node.js 12 available as container is a base platform for building
       and running various Node.js 12 applications and frameworks. Node.js is a platform
       built on Chrome's JavaScript runtime for easily building fast, scalable network
@@ -37,11 +37,11 @@ metadata:
     s2i.openshift.io/scripts-url: image:///usr/libexec/s2i
     stack.appsody.dev/authors: Sam Roberts <vieuxtech@gmail.com>
     stack.appsody.dev/configured: docker.io/kabanero/nodejs:0.3
-    stack.appsody.dev/created: "2020-03-10T14:18:34Z"
+    stack.appsody.dev/created: "2020-03-10T21:47:11Z"
     stack.appsody.dev/description: Runtime for Node.js applications
     stack.appsody.dev/documentation: https://github.com/kabanero-io/collections/tree/master/incubator/nodejs/README.md
     stack.appsody.dev/licenses: Apache-2.0
-    stack.appsody.dev/revision: 998cf17e727eef2d3e9cc717d8aab2275732e1a6
+    stack.appsody.dev/revision: 5f7634c970b880bef90eeea4288153249e172d61
     stack.appsody.dev/source: https://github.com/kabanero-io/collections/tree/master/incubator/nodejs/image
     stack.appsody.dev/tag: docker.io/kabanero/nodejs:0.3.3
     stack.appsody.dev/title: Node.js
