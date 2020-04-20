@@ -5,16 +5,16 @@ metadata:
     architecture: x86_64
     authoritative-source-url: registry.access.redhat.com
     build-date: 2020-01-30T08:17:04.175507
-    commit.stack.appsody.dev/author: Steve Groeger <groeges@uk.ibm.com>
+    commit.stack.appsody.dev/author: kilnerm <38245247+kilnerm@users.noreply.github.com>
     commit.stack.appsody.dev/committer: GitHub <noreply@github.com>
     commit.stack.appsody.dev/contextDir: /incubator/nodejs
-    commit.stack.appsody.dev/date: Tue Mar 10 21:35:36 2020 +0000
-    commit.stack.appsody.dev/message: 'Merge pull request #313 from groeges/release-0.6'
+    commit.stack.appsody.dev/date: Fri Apr 3 09:22:57 2020 +0100
+    commit.stack.appsody.dev/message: 'Merge pull request #316 from groeges/release-0.6'
     description: This image contains the Kabanero development stack for the Nodejs
       collection
     distribution-scope: public
     help: For more information visit https://github.com/sclorg/s2i-nodejs-container
-    image.opencontainers.org/created: "2020-03-23T11:10:25-04:00"
+    image.opencontainers.org/created: "2020-04-20T09:30:18-04:00"
     k8s.io/description: Node.js 12 available as container is a base platform for building
       and running various Node.js 12 applications and frameworks. Node.js is a platform
       built on Chrome's JavaScript runtime for easily building fast, scalable network
@@ -36,14 +36,14 @@ metadata:
     s2i.io/scripts-url: image:///usr/libexec/s2i
     s2i.openshift.io/scripts-url: image:///usr/libexec/s2i
     stack.appsody.dev/authors: Sam Roberts <vieuxtech@gmail.com>
-    stack.appsody.dev/configured: docker.io/kabanero/nodejs:0.3
-    stack.appsody.dev/created: "2020-03-10T21:47:11Z"
+    stack.appsody.dev/configured: docker.io/kabanerobeta/nodejs:0.3
+    stack.appsody.dev/created: "2020-04-03T09:00:11Z"
     stack.appsody.dev/description: Runtime for Node.js applications
     stack.appsody.dev/documentation: https://github.com/kabanero-io/collections/tree/master/incubator/nodejs/README.md
     stack.appsody.dev/licenses: Apache-2.0
-    stack.appsody.dev/revision: 5f7634c970b880bef90eeea4288153249e172d61
+    stack.appsody.dev/revision: 27a3254c80e6c5367a76e6099c2e18b393d15841
     stack.appsody.dev/source: https://github.com/kabanero-io/collections/tree/master/incubator/nodejs/image
-    stack.appsody.dev/tag: docker.io/kabanero/nodejs:0.3.3
+    stack.appsody.dev/tag: docker.io/kabanerobeta/nodejs:0.3.3
     stack.appsody.dev/title: Node.js
     stack.appsody.dev/url: https://github.com/kabanero-io/collections/tree/master/incubator/nodejs
     summary: Image for Kabanero Nodejs development
