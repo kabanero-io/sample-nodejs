@@ -4,17 +4,22 @@ metadata:
   annotations:
     architecture: x86_64
     authoritative-source-url: registry.access.redhat.com
-    build-date: 2020-01-30T08:17:04.175507
-    commit.stack.appsody.dev/author: kilnerm <38245247+kilnerm@users.noreply.github.com>
-    commit.stack.appsody.dev/committer: GitHub <noreply@github.com>
+    build-date: 2020-04-09T10:02:05.547594
+    commit.image.appsody.dev/date: Mon Apr 20 09:30:44 2020 -0400
+    commit.image.appsody.dev/message: 0.8.0
     commit.stack.appsody.dev/contextDir: /incubator/nodejs
-    commit.stack.appsody.dev/date: Fri Apr 3 09:22:57 2020 +0100
-    commit.stack.appsody.dev/message: 'Merge pull request #316 from groeges/release-0.6'
+    commit.stack.appsody.dev/date: Fri May 1 15:13:54 2020 +0100
+    commit.stack.appsody.dev/message: 'Merge pull request #331 from uberskigeek/329_fix_missing_continuation'
     description: This image contains the Kabanero development stack for the Nodejs
       collection
     distribution-scope: public
     help: For more information visit https://github.com/sclorg/s2i-nodejs-container
-    image.opencontainers.org/created: "2020-04-20T09:30:18-04:00"
+    image.opencontainers.org/created: "2020-05-15T17:09:17-04:00"
+    image.opencontainers.org/documentation: https://github.com/kabanero-io/sample-nodejs
+    image.opencontainers.org/revision: 7a5013382204390954c0eda7c3f5d2f6e077a8c5-modified
+    image.opencontainers.org/source: https://github.com/kabanero-io/sample-nodejs/tree/HEAD
+      -> origin
+    image.opencontainers.org/url: https://github.com/kabanero-io/sample-nodejs
     k8s.io/description: Node.js 12 available as container is a base platform for building
       and running various Node.js 12 applications and frameworks. Node.js is a platform
       built on Chrome's JavaScript runtime for easily building fast, scalable network
@@ -26,38 +31,39 @@ metadata:
     name: kabanero/nodejs
     openshift.io/expose-services: 8080:http
     openshift.io/tags: builder,nodejs,nodejs12
-    redhat.com/build-host: cpt-1001.osbs.prod.upshift.rdu2.redhat.com
+    redhat.com/build-host: cpt-1004.osbs.prod.upshift.rdu2.redhat.com
     redhat.com/component: nodejs-12-container
     redhat.com/deployments-dir: /opt/app-root/src
     redhat.com/dev-mode: DEV_MODE:false
     redhat.com/dev-mode.port: DEBUG_PORT:5858
     redhat.com/license_terms: https://www.redhat.com/en/about/red-hat-end-user-license-agreements#UBI
-    release: "27"
+    release: "36"
     s2i.io/scripts-url: image:///usr/libexec/s2i
     s2i.openshift.io/scripts-url: image:///usr/libexec/s2i
-    stack.appsody.dev/authors: Sam Roberts <vieuxtech@gmail.com>
+    stack.appsody.dev/authors: Sam Roberts <sam-github>
     stack.appsody.dev/configured: docker.io/kabanerobeta/nodejs:0.3
-    stack.appsody.dev/created: "2020-04-03T09:00:11Z"
+    stack.appsody.dev/created: "2020-05-01T15:08:35Z"
     stack.appsody.dev/description: Runtime for Node.js applications
+    stack.appsody.dev/digest: sha256:e2d096e6d36b02b84b2752ede420e33c1edcd678681df9b7bea28588656b2f16
     stack.appsody.dev/documentation: https://github.com/kabanero-io/collections/tree/master/incubator/nodejs/README.md
     stack.appsody.dev/licenses: Apache-2.0
-    stack.appsody.dev/revision: 27a3254c80e6c5367a76e6099c2e18b393d15841
+    stack.appsody.dev/revision: 8c75520a677c818df6c9c546b9402cc1733feaa6
     stack.appsody.dev/source: https://github.com/kabanero-io/collections/tree/master/incubator/nodejs/image
-    stack.appsody.dev/tag: docker.io/kabanerobeta/nodejs:0.3.3
+    stack.appsody.dev/tag: docker.io/kabanerobeta/nodejs:0.3.6
     stack.appsody.dev/title: Node.js
     stack.appsody.dev/url: https://github.com/kabanero-io/collections/tree/master/incubator/nodejs
     summary: Image for Kabanero Nodejs development
-    url: https://access.redhat.com/containers/#/registry.access.redhat.com/ubi8/nodejs-12/images/1-27
+    url: https://access.redhat.com/containers/#/registry.access.redhat.com/ubi8/nodejs-12/images/1-36
     usage: s2i build <SOURCE-REPOSITORY> ubi8/nodejs-12:latest <APP-NAME>
     vcs-ref: 9a85b86edcc6c765692f15311abe259b0f9997b2
     vcs-type: git
     vendor: Kabanero
-    version: 0.3.3
+    version: 0.3.6
   creationTimestamp: null
   labels:
     image.opencontainers.org/title: sample-nodejs
     stack.appsody.dev/id: nodejs
-    stack.appsody.dev/version: 0.3.3
+    stack.appsody.dev/version: 0.3.6
   name: sample-nodejs
 spec:
   applicationImage: dev.local/sample-nodejs
