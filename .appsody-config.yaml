@@ -1,3 +1,3 @@
-id: "20200515170914.17528213"
+id: "20200520140308.63349269"
 project-name: sample-nodejs
-stack: docker.io/kabanerobeta/nodejs:0.3
+stack: docker.io/kabanero/nodejs:0.3
